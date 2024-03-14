@@ -1,3 +1,12 @@
+/*
+=======================================================
+Name : App.js
+Assignment : Lab 8 , Exercise b/c
+Author ( s ) : Rohan Lange, Aidan Huang
+Submission : March 13 , 2024
+Description : React lab8.
+=======================================================
+*/
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { ProductsProvider } from './context/ProductsContext'; // Adjust the import path as necessary

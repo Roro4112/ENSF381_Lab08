@@ -1,3 +1,12 @@
+/*
+=======================================================
+Name : ProductForms.js
+Assignment : Lab 8 , Exercise b/c
+Author ( s ) : Rohan Lange, Aidan Huang
+Submission : March 13 , 2024
+Description : React lab8.
+=======================================================
+*/
 import React, { useState, useEffect } from 'react';
 import { addProduct, editProduct, getProductDetails } from '../services/apiService';
 import { useProductsContext } from '../context/ProductsContext';

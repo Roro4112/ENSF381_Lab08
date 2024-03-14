@@ -1,3 +1,12 @@
+/*
+=======================================================
+Name : DeleteButton.js
+Assignment : Lab 8 , Exercise b/c
+Author ( s ) : Rohan Lange, Aidan Huang
+Submission : March 13 , 2024
+Description : React lab8.
+=======================================================
+*/
 import React, { useState } from 'react';
 import { removeProduct } from '../services/apiService';
 import ConfirmModal from './ConfirmModal';

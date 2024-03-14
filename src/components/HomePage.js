@@ -1,3 +1,12 @@
+/*
+=======================================================
+Name : HomePage.js
+Assignment : Lab 8 , Exercise b/c
+Author ( s ) : Rohan Lange, Aidan Huang
+Submission : March 13 , 2024
+Description : React lab8.
+=======================================================
+*/
 import React from "react";
 
 // using JSON for styling

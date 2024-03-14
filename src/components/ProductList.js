@@ -1,4 +1,13 @@
 // src/components/ProductList.js
+/*
+=======================================================
+Name : ProductLists.js
+Assignment : Lab 8 , Exercise b/c
+Author ( s ) : Rohan Lange, Aidan Huang
+Submission : March 13 , 2024
+Description : React lab8.
+=======================================================
+*/
 import React, { useEffect, useState } from 'react';
 import { fetchProducts } from '../services/apiService';
 import { useProductsContext } from '../context/ProductsContext';

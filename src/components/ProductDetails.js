@@ -1,3 +1,12 @@
+/*
+=======================================================
+Name : ProductDetails.js
+Assignment : Lab 8 , Exercise b/c
+Author ( s ) : Rohan Lange, Aidan Huang
+Submission : March 13 , 2024
+Description : React lab8.
+=======================================================
+*/
 import React, { useState, useEffect } from 'react';
 import DeleteButton from './DeleteButton'; 
 import { getProductDetails } from '../services/apiService';
