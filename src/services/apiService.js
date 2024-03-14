@@ -19,7 +19,7 @@ export const getProductDetails = async (id) => {
 		const response = await axios.get(`${BASE_URL}/${id}`);
 		return response.data;
 	} catch (error) {
-		throw error;
+		console.error("Error fetching product details", error);
 	}
 };
 
