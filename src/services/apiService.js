@@ -16,7 +16,7 @@ export const fetchProducts = async () => {
 export const getProductDetails = async (id) => {
 	// implement it using similar logic as fetchProducts function
 	try {
-		const response = await axios.get(`${BASE_URL}/$(id)`);
+		const response = await axios.get(`${BASE_URL}/${id}`);
 		return response.data;
 	} catch (error) {
 		console.error("Error fetching product details", error);
