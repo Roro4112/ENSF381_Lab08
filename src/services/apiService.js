@@ -16,7 +16,7 @@ export const fetchProducts = async () => {
 export const getProductDetails = async (id) => {
 	// implement it using similar logic as fetchProducts function
 	try {
-		const response = await axios.get(id);
+		const response = await axios.get(`${BASE_URL}/${id}`);
 		return response.data;
 	} catch (error) {
 		throw error;
@@ -39,7 +39,7 @@ export const addProduct = (product) => {
 };
 
 // Edits an existing product by ID
-export const editProduct = (id, product) => {
+export const editProduct = (product) => {
 	// implement it using similar logic as addProduct function but use axios.put method
-    return axios.put(`${BASE_URL}/add`, JSON.stringify(product));
+    return axios.put(`${BASE_URL}/${product.id}`, JSON.stringify(product));
 };
